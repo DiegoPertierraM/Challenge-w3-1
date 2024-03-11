@@ -3,6 +3,8 @@ body {
   overflow: hidden;
 }
 .characters-list {
+  display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   max-width: 100%;
   min-height: 100vh;
