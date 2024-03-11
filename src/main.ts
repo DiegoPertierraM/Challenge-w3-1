@@ -2,8 +2,8 @@ import './css/styles.css';
 import { characters } from './characters.ts';
 import { Advisor } from './advisor.ts';
 
-const casfsa = new Advisor('Mi abuela', 'Baratheon', 23, false, 'no');
-console.log(casfsa.speak());
+const example = new Advisor('abc', 'Baratheon', 23, false, 'no');
+console.log(example.speak());
 
 const charactersList = document.querySelector('.characters-list');
 
